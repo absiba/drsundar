@@ -11,9 +11,37 @@
     <link rel="manifest" href="./manifest.json">
     <meta name="theme-color" content="#29BDBB">
     <link rel="icon" sizes="192x192" href="./launcher-icon-144.png">
+  <style type="text/css">
+  header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: 0 0.5em;
+    background-color: #29BDBB;
+    height: 3em;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+    line-height: 3em;
+    color: #fff;
+    transform: translateZ(0);
+    backface-visibility: hidden;
+}
+    .content {
+    max-width: 72em;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+  </style>
+  
 </head>
 <body>
-<h2> Book appointments </h2>
+ <header>
+        <div class="content">
+            <h3>Book an appointment</h3>
+        </div>
+    </header>
+
   <script>
     // register the service worker if available
 if ('serviceWorker' in navigator) {
