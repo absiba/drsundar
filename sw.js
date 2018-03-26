@@ -8,6 +8,7 @@ self.addEventListener('install', function(e) {
         caches.open(cacheName).then(function(cache) {
             return cache.addAll([
                 './',
+                './style.css',
                 './offline.html'
             ]).then(function() {
                 self.skipWaiting();
