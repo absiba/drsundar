@@ -1,8 +1,7 @@
-.content {
-    max-width: 72em;
-    margin-left: auto;
-    margin-right: auto;
+header h3 {
+    margin: 0;
 }
+
 
 header {
     position: fixed;
@@ -18,3 +17,9 @@ header {
     transform: translateZ(0);
     backface-visibility: hidden;
 }
+.content {
+    max-width: 72em;
+    margin-left: auto;
+    margin-right: auto;
+}
+
