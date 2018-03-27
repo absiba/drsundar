@@ -1,7 +1,7 @@
 {
-  "short_name": "Arrivals",
-  "name": "Arrivals at Sky High",
-  "description": "Progressive Web Application demonstration",
+  "short_name": "Dr. Sundar",
+  "name": "Dr. Sundar Appointments Booking",
+  "description": "Online Appointments Booking for Dr. Sundar",
   "icons": [
     {
       "src": "android-launchericon-48-48.png",
