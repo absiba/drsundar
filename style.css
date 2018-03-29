@@ -20,6 +20,7 @@ header {
 
 header h3 {
     margin: 0;
+    
 }
 
 .drprofile img {
@@ -28,6 +29,7 @@ float: left;
 }
 .drprofile h3 {
 font: bold 20px/1 Helvetica, Verdana, sans-serif;
+    padding: 5px;
 }
 .drprofile p {
      font: 200 12px/1 Georgia, Times New Roman, serif;
